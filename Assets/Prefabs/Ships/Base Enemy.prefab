@@ -10,8 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8722525974561185382}
   - component: {fileID: 2261603340458593167}
+  - component: {fileID: 8174097428947819900}
+  - component: {fileID: 7362417830995848546}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Base Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,6 +57,40 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &8174097428947819900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911812812243561662}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7362417830995848546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911812812243561662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2417597ca6be931418875f8e0de8df5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyedShipVFX: {fileID: 2701893315349823226, guid: 2b5352cf68b7eb849932dc3e864682ca, type: 3}
 --- !u!1 &7950809509544371677
 GameObject:
   m_ObjectHideFlags: 0
