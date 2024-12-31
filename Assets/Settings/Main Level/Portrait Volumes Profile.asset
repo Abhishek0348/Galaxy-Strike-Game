@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Portrait Volumes Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 4967124840709499916}
-  - {fileID: 1773456790989924667}
---- !u!114 &1773456790989924667
+  - {fileID: 5009953133452118250}
+  - {fileID: 2630498766322263926}
+--- !u!114 &2630498766322263926
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33,14 +33,14 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.587
   response:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.086
   texture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
---- !u!114 &4967124840709499916
+--- !u!114 &5009953133452118250
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
